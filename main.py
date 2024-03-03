@@ -1,7 +1,7 @@
 # Author: Homer
 source_value = int(input("Enter the number you want to convert: "))
 source_base = int(input("What is the base of your number? "))
-desired_base = int(input("What base would you like to convert to? [2, 8, 10, 16]"))
+desired_base = int(input("What base would you like to convert to? [2, 8, 10, 16] "))
 precision_number = int(input("For fractions, what is the precision value? "))
 conversion_method = int(input("Choose a conversion method: 1. Subtraction 2. Division 3. Multiplication [Enter 1,2,3]"))
 
@@ -43,7 +43,4 @@ def menu():
         pass
 
 
-
-
-
-
+menu()
